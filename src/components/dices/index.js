@@ -14,11 +14,15 @@ let fir = 0, sec = 0
 
 function Dices() {
 
+
+
   useEffect(() => {
     Reset();
     Name();
 
   }, []);
+
+
   const [result, setResult] = useState('Click this button below to start');
   const [user1History, setUser1History] = useState([]);
   const [user2History, setUser2History] = useState([]);
@@ -91,7 +95,7 @@ function Dices() {
 
   const Name = () => {
 
-    const a = alert("Hello Welcome to Play ROLL THE DICE");
+    alert("Hello Welcome to Play ROLL THE DICE");
     const user1 = prompt("Please enter your name ", "Player 1")
     setUser1name(user1)
     const user2 = prompt("Please enter your name ", "Player 2")
