@@ -1,3 +1,4 @@
+
 .dice-wrapper {
   width: 90%;
   display: flex;
@@ -19,7 +20,7 @@ p {
 }
 
 .btn {
-  background-color: #836fa9;
+  background-color: #803cff;
   border: none;
   outline: none;
   padding: 1.5rem 0;
@@ -33,7 +34,7 @@ p {
 
 .reset {
   background-color: transparent;
-  color: #836fa9;
+  color: #000000;
 }
 
 ul {

@@ -122,7 +122,7 @@ function Dices() {
       <button onClick={Roll} className='btn' on >
         Roll the Dice
       </button>
-      <br></br>
+      <span>&nbsp;&nbsp;</span><span>&nbsp;&nbsp;</span>
       <button onClick={Reset} className='btn reset'>
         Reset
       </button>
