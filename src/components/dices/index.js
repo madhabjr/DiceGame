@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import dice1 from '../../images/dice1.svg';
 import dice2 from '../../images/dice2.svg';
 import dice3 from '../../images/dice3.svg';
@@ -8,7 +8,7 @@ import dice6 from '../../images/dice6.svg';
 
 import './index.css';
 
-let i = 0, a = 0, b = 0;
+let i = 0;
 var first = []; var second = [];
 let fir = 0, sec = 0
 
