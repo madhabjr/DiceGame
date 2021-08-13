@@ -95,7 +95,7 @@ function Dices() {
 
   const Name = () => {
 
-    alert("Hello Welcome to Play ROLL THE DICE");
+    alert("Hello!! Welcome to DiceySpicy");
     const user1 = prompt("Please enter your name ", "Player 1")
     setUser1name(user1)
     const user2 = prompt("Please enter your name ", "Player 2")
